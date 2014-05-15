@@ -1,1 +1,2 @@
-bundle de gestion des commandes et des factures
+This Bundle manage orders and invoices
+
