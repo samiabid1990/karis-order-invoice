@@ -1,0 +1,20 @@
+Karis\OrderBundle\Entity\Order:
+    type: entity
+    table: karis_orders
+    fields:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        reference:
+            type: string
+            length: 100
+        name:
+            type: string
+            length: 100
+        function:
+            type: string
+            length: 100
+        date:
+            type: date

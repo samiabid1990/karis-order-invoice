@@ -1,0 +1,7 @@
+parameters:
+    karis_order.order_manager.class: Karis\OrderBundle\Manager\OrderManager
+
+services:
+    karis_order.order_manager:
+        class: %karis_order.order_manager.class%
+        arguments: [@doctrine.orm.entity_manager]

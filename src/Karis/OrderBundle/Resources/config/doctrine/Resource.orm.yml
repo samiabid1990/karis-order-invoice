@@ -1,0 +1,19 @@
+Karis\OrderBundle\Entity\Resource:
+    type: entity
+    table: karis_resources
+    fields:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        resource:
+            type: string
+            length: 250
+        rate:
+            type: float
+        country:
+            type: string
+            length: 250
+            
+        
