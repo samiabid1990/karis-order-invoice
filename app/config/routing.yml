@@ -1,0 +1,4 @@
+karis_order:
+    resource: "@KarisOrderBundle/Resources/config/routing.yml"
+    prefix:   /
+

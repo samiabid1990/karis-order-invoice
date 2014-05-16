@@ -6,7 +6,7 @@ use Doctrine\Common\Persistence\ObjectManager;
  * @author Hedfi Fatma
  *
  */
-use Karis\OrderBundle\Model\OrderManager as baseOrder;
+use Karis\Component\Order\Model\OrderManager as baseOrder;
 
 class OrderManager extends baseOrder{
 	
