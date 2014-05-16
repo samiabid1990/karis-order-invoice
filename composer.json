@@ -48,5 +48,11 @@
         "branch-alias": {
             "dev-master": "2.4-dev"
         }
+    },
+    "require-dev": {
+        "phpmd/phpmd": "1.5.*",
+        "squizlabs/php_codesniffer": "dev-master",
+        "sebastian/phpcpd": "dev-master",
+        "phpunit/phpunit-skeleton-generator": "*"
     }
 }
