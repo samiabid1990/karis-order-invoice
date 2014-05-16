@@ -14,3 +14,11 @@ web_profiler:
 
 swiftmailer:
     disable_delivery: true
+    
+doctrine:
+    dbal:
+        driver:       pdo_mysql
+        host:         localhost
+        dbname:    order_test
+        user:         root
+        password: 123456
