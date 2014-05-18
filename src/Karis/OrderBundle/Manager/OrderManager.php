@@ -3,7 +3,7 @@ namespace Karis\OrderBundle\Manager;
 use Doctrine\Common\Persistence\ObjectManager;
 
 /**
- * @author Hedfi Fatma
+ * @author Hedfi Fatma <fatmahedfi@gmail.com>
  *
  */
 use Karis\Component\Order\Model\OrderManager as baseOrder;

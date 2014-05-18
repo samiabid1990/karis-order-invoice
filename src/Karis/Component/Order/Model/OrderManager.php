@@ -1,7 +1,7 @@
 <?php
 namespace Karis\OrderBundle\Model;
 /**
- * @author Hedfi Fatma
+ * @author Hedfi Fatma <fatmahedfi@gmail.com>
  *
  */
 abstract class OrderManager implements OrderManagerInterface {

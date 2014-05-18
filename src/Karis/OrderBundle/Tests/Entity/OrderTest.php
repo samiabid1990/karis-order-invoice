@@ -1,7 +1,7 @@
 <?php
 namespace Karis\OrderBundle\Tests\Entity;
 /**
- * @author Hedfi Fatma
+ * @author Hedfi Fatma <fatmahedfi@gmail.com>
  *
  */
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;

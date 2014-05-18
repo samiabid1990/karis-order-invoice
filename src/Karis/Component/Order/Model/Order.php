@@ -1,12 +1,14 @@
 <?php
+
 namespace Karis\Component\Order\Model;
 /**
- * @author Hedfi Fatma
+ * @author Hedfi Fatma <fatmahedfi@gmail.com>
  *
  */
-abstract class Order implements OrderInterface{
+abstract class Order implements OrderInterface
+{
 
-	/**
+        /**
 	 * @var integer
 	 */
 	private $id;

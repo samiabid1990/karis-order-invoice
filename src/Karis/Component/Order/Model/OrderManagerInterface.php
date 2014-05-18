@@ -1,7 +1,7 @@
 <?php
 namespace Karis\Component\Order\Model;
 /**
- * @author Hedfi Fatma
+ * @author Hedfi Fatma <fatmahedfi@gmail.com>
  *
  */
 interface OrderManagerInterface {

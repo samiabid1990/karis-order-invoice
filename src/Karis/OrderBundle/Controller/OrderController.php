@@ -1,7 +1,7 @@
 <?php
 namespace Karis\OrderBundle\Controller;
 /**
- * @author Hedfi Fatma
+ * @author Hedfi Fatma <fatmahedfi@gmail.com>
  *
  */
 class OrderController {
