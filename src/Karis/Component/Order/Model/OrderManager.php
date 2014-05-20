@@ -4,6 +4,8 @@ namespace Karis\OrderBundle\Model;
  * @author Hedfi Fatma <fatmahedfi@gmail.com>
  *
  */
+use Karis\Component\Order\Model\OrderManagerInterface;
+
 abstract class OrderManager implements OrderManagerInterface {
 	
 /**
@@ -12,7 +14,7 @@ abstract class OrderManager implements OrderManagerInterface {
  */
 	public function createOrder(){
 	
-		$order = new Karis\OrderBundle\Model\OrderInterface();
+		$order = new Karis\Component\Order\Model\OrderInterface();
 		return  $order;
 	}
 	
