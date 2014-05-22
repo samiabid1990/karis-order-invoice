@@ -1,5 +1,5 @@
 <?php
-namespace Karis\OrderBundle\Model;
+namespace Karis\Component\Order\Model;
 /**
  * @author Hedfi Fatma <fatmahedfi@gmail.com>
  *
